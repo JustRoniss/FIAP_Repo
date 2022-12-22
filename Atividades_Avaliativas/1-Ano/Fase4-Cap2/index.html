@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fiap Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="intro">
+        <div class="d-flex align-items-center h-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body p-5">
+
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <div class="text-center pt-md-5 pb-5 my-md-5">
+                                            <img  id="imgLogo" src="./images/fiap_logo.jpg" alt="Logo da Fiap">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 text-center">
+
+                                        <h2 class="mb-4">Área Reservada</h2>
+
+                                        <div class="mb-3">
+                                            <input type="email" id="typeEmail" class="form-control form-control-lg" />
+                                            <label class="form-label" for="typeEmail">Email</label>
+                                        </div>
+
+                                        <div class=" mb-4">
+                                            <input type="password" id="typePassword"
+                                                class="form-control form-control-lg" />
+                                            <label class="form-label" for="typePassword">Password</label>
+                                        </div>
+
+                                        <div class="text-center">
+                                            <button class="btn btn-info btn-block btn-lg" type="submit"  onclick="notCreated()">Login</button>
+                                            <p class="small mt-3 mb-4 text-muted">Esqueci <span class="fw-bold">
+                                                    <a href="#!" class="text-muted"  onclick="notCreated()">Usuário</a> /
+                                                    <a href="#!" class="text-muted"  onclick="notCreated()">Senha</a>?</span></p>
+                                            <a href="./pages/cadastro.html" class="link-info">Criar Login
+                                                <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

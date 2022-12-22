@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agropop</title>
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validarForm()">
+            <h1>Você fez a escolha certa!</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <small class="error"></small>
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Digite seu e-mail">
+            <small class="error"></small>
+
+            <label for="celular">Celular com DDD</label>
+            <input type="tel" maxlength="15" id="celular" placeholder="Digite seu número de celular">
+            <small class="error"></small>
+
+            <label for="endereco_rua">Endereço</label>
+            <input type="text" id="endereco_rua" placeholder="Digite sua rua">
+            <small class="error"></small>
+            <input type="number" id="endereco_numero" placeholder="Digite o número">
+            <small class="error"></small>
+            <input type="text" id="endereco_complemento" placeholder="Digite o complemento">
+            <small class="error"></small>
+
+            <label for="tipo_alimento">Qual categoria de alimentos deseja doar?</label>
+            <select id="tipo_alimento" name="tipo_alimento">
+                <option value="verdura">Verduras</option>
+                <option value="legumes">Legumes</option>
+                <option value="frutas">Frutas</option>
+                <option value="leite">Leite e derivados</option>     
+            </select>
+
+            <label for="peso">Peso aproximado</label>
+            <input type="text" id="peso" placeholder="Em KG">
+            <small class="error"></small>
+
+            <label for="data">Escolha uma data para agendarmos a visita</label>
+            <input type="date" id="data" >
+            <small class="error"></small>
+
+            <label for="hora">Qual a melhor hora</label>
+            <input type="time" id="hora" >
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="Agendar" onclick="redirecionar()">
+                <p id="sucess"></p>
+            </div>
+
+        </form>
+    </div>
+    <script src="../scripts/validateForm.js" type="text/javascript"></script>></script>
+</body>
+</html>

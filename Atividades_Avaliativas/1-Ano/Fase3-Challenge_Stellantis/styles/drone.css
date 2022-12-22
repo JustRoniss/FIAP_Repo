@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+    color: #1aff1a;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 1em;
+}
+
+.apresentacao_drone{
+    margin-top: 2em;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.apresentacao_drone p, .apresentacao_drone li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    
+}
+
+.img{
+    width: 100%;
+}
+
+.seguranca{
+    margin-top: 1em;
+}
+
+.seguranca > h2{
+    margin-bottom: 0.5em;
+}
+
+
+
+.energia_limpa {
+    margin-top: 1em;
+}
+
+.energia_limpa > h2{
+    margin-bottom: 0.5em;
+}
+
+#btn_apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 100%;
+    background: linear-gradient(to right, #1aff1a, rgb(146, 248, 126));
+    color: black;
+    font-size: 17px;
+
+}
+
+#btn_apresentacao:hover{
+    transform: scale(1.1);
+    transition: transform .5s linear;
+    font-weight: bold;
+}

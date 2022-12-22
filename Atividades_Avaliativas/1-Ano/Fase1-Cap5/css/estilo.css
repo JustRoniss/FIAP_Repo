@@ -1,0 +1,343 @@
+html{
+    margin-left: auto;
+    margin-right: auto;   
+    width: 980px
+}
+
+header{
+    margin-top: 40px;
+}
+
+#logo_principal{
+    margin-left: 12px;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.cabecalho_cima {
+    
+    height: 45px;
+    background-color: #1B8E99;
+    font-family: Arial;
+    
+    
+}
+
+.cabecalho_cima ul{
+    
+    float: right;
+    
+}
+
+.cabecalho_cima li{
+    display: inline;
+    padding: 0.25em;
+    
+    
+
+}
+
+.cabecalho_cima a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+ #destaque_nav{
+    background-color: #92c9ce; 
+}
+
+
+.cabecalho_baixo {
+
+    width: 980px;
+    height: 45px;
+    background-color: #660000;
+    font-family: Arial;
+    margin-top: -1.2em;
+    
+}
+
+
+
+.cabecalho_baixo li{
+    display: inline;
+    padding: 0.25em;
+
+}
+
+.cabecalho_baixo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+#titulo_loja_virtual{
+    
+    font-family: Arial;
+    color: #660000;
+    margin-left: 1em;
+    border-bottom: #660000 3.5px solid;
+    display: inline;
+    width: 800px;
+    padding-right: 65%;
+   
+    
+}
+
+#imagem_drone_titulo_loja_virtual{
+    width: 125px;
+    height: 77px;
+    display: inline;
+    margin-top: 2em;
+}
+
+
+.loja_virtual_cards{
+    margin-top: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+
+.loja_virtual_drone_sem_destaque{
+    
+    height: 376px;
+    width: 300px;
+    border: 1px solid #4d9ea5;
+    margin-top: 2.5em;
+  
+}
+
+
+.titulo_loja_drone_sem_destaque {
+   color: #1B8E99; 
+   height: 1.5em;
+   background-color: #a0c8cc;
+   text-align: center;
+   margin-top: 0;
+}
+
+
+.img_loja_drone_sem_destaque{
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 1.3em;
+  
+}
+
+.texto_loja_virtual_loja_sem_destaque{
+    color: #1B8E99;
+    font-size: 14px;
+    text-align: center;
+}
+
+.valores_loja_virtual_loja_sem_destaque{
+    background-color: #1B8E99;
+    height: 110px;
+    
+}
+
+.preco_loja_virtual_loja_sem_destaque{
+    font-size: 26px;
+    color: white;
+    float: left;
+    padding-left: 00.25em;
+    margin-left: 1em;
+}
+
+.preco_parcelado_loja_virtual_loja_sem_destaque{
+    font-size: 16px;
+    color:white;
+    margin-top: 3.5em;
+    margin-left: -8em;
+    float: left;
+    
+}
+
+.imagem_carrinho_loja_virtual{
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+    background-color: white;
+
+
+}
+
+.loja_virtual_drone_com_destaque{
+    
+    height: 376px;
+    width: 300px;
+    border: 1px solid #660000;
+    margin-top: 2.5em; 
+}
+
+
+.titulo_loja_drone_com_destaque {
+   color: #660000;
+   height: 1.5em;
+   font-weight: bold;
+   background-color: #885656;
+   text-align: center;
+   margin-top: 0;
+}
+
+
+.img_loja_drone_com_destaque{
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 1.3em;
+}
+
+.texto_loja_virtual_loja_com_destaque{
+    color: #660000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.valores_loja_virtual_loja_com_destaque{
+    background-color: #660000;
+    height: 126px;
+}
+
+.preco_loja_virtual_loja_com_destaque{
+    font-size: 26px;
+    color: white;
+    float: left;
+    padding-left: 00.25em;
+    margin-left: 1em;
+
+}
+
+.preco_parcelado_loja_virtual_loja_com_destaque{
+    font-size: 16px;
+    color:white;
+    margin-top: 3.5em;
+    margin-left: -8.90em;
+    float: left;
+}
+
+.servicos{
+
+
+}
+
+#titulo_servicos{
+    font-family: Arial;
+    color: #1c8e99;
+    margin-left: 1em;
+    border-bottom: #1c8e99 3.5px solid;
+    display: inline;
+    width: 900px;
+    padding-right: 65%;
+    
+}
+
+#imagem_drone_titulo_servicos{
+    width: 125px;
+    height: 77px;
+    display: inline;
+    margin-top: 2em;
+}
+
+.servicos_cards{
+    margin-top: 0.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.servicos_card_vermelho{
+    
+    height: 376px;
+    width: 300px;
+    border: 1px solid #660000;
+    margin-top: 2.5em;
+  
+}
+
+.servicos_card_azul{
+    
+    height: 376px;
+    width: 278px;
+    border: 1px solid #660000;
+    margin-top: 2.5em;
+  
+}
+
+
+
+.image_cards_servico{
+    width: 280px;
+    height: 50 px;
+}
+
+
+.titulo_servicos_card_vermelho{
+    color: #660000;
+    
+}
+
+.titulo_servicos_card_azul{
+    color: #1c8e99;
+
+}
+
+.texto_servicos_card_vermelho{
+    font-family: Tahoma;
+    color: #660000;
+    font-size: 13px;
+    text-align: center;
+}
+
+.texto_servicos_card_azul{
+    color: #1c8e99;
+    font-size: 13px;
+    text-align: center;
+}
+
+.rodape_drones{
+    display: flex;
+    margin-top: 5em;
+    justify-content: flex-start;
+
+}
+.rodape_drones img {
+    padding-right: 8.5em;
+}
+
+.rodape_fundo{
+    background-color: #1c8e99;
+    width: 980px;
+    height: 96px;
+}
+
+#rodape_logo{
+    display: inline;
+    margin-top: 2em;
+    margin-right: 2em;
+    
+}
+
+.rodape_texto{
+    display: inline;
+    font-size: 14px;
+    color: white;
+}
+
+#rodape_img_prof{
+    display: flex;
+    float: right;
+    margin-top: -7.5em;
+}
